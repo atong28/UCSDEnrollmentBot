@@ -14,34 +14,34 @@ BUTTONS = [u"\u23EA", u"\u2B05", u"\u27A1", u"\u23E9"]
 MAX_SEARCH_RESULTS = 8
 GUILD_IDS = [1146364521234055208]
 
-# Enrollment times for 2023 Winter
+# Enrollment times for 2023 Spring
 TIMES = [
-    datetime(2022, 11, 7, 8),  # first pass prio + seniors [0]
-    datetime(2022, 11, 9, 8),  # first pass juniors [1]
-    datetime(2022, 11, 10, 8), # first pass sophomores [2]
-    datetime(2022, 11, 11, 8), # first pass freshmen [3]
-    datetime(2022, 11, 14, 8), # second pass prio + seniors [4]
-    datetime(2022, 11, 16, 8), # second pass juniors [5]
-    datetime(2022, 11, 17, 8), # second pass sophomores [6]
-    datetime(2022, 11, 18, 8), # second pass freshmen [7]
-    datetime(2022, 11, 20),    # enrollment ends [8]
-    datetime(2023, 1, 4),      # classes start [9]
-    datetime(2023, 1, 21)      # deadline to enroll/add [10]
+    datetime(2023, 2, 18, 8),  # first pass prio + seniors [0]
+    datetime(2023, 2, 21, 8),  # first pass juniors [1]
+    datetime(2023, 2, 22, 8), # first pass sophomores [2]
+    datetime(2023, 2, 23, 8), # first pass freshmen [3]
+    datetime(2023, 2, 27, 8), # second pass prio + seniors [4]
+    datetime(2023, 3, 1, 8), # second pass juniors [5]
+    datetime(2023, 3, 2, 8), # second pass sophomores [6]
+    datetime(2023, 3, 3, 8), # second pass freshmen [7]
+    datetime(2023, 3, 5),    # enrollment ends [8]
+    datetime(2023, 4, 3),      # classes start [9]
+    datetime(2023, 4, 14)      # deadline to enroll/add [10]
 ]
 
-# Enrollment times for 2024 Winter
+# Enrollment times for 2024 Spring
 TIMES_NEW = [
-    datetime(2023, 11, 14, 8), # first pass prio + seniors [0]
-    datetime(2023, 11, 16, 8), # first pass juniors [1]
-    datetime(2023, 11, 17, 8), # first pass sophomores [2]
-    datetime(2023, 11, 18, 8), # first pass freshmen [3]
-    datetime(2023, 11, 21, 8), # second pass prio + seniors [4]
-    datetime(2023, 11, 23, 8), # second pass juniors [5]
-    datetime(2023, 11, 24, 8), # second pass sophomores [6]
-    datetime(2023, 11, 25, 8), # second pass freshmen [7]
-    datetime(2023, 11, 27),    # enrollment ends [8]
-    datetime(2024, 1, 3),      # classes start [9]
-    datetime(2024, 1, 20)      # deadline to enroll/add [10]
+    datetime(2024, 2, 17, 8), # first pass prio + seniors [0]
+    datetime(2024, 2, 20, 8), # first pass juniors [1]
+    datetime(2024, 2, 21, 8), # first pass sophomores [2]
+    datetime(2024, 2, 22, 8), # first pass freshmen [3]
+    datetime(2024, 2, 26, 8), # second pass prio + seniors [4]
+    datetime(2024, 2, 28, 8), # second pass juniors [5]
+    datetime(2024, 2, 29, 8), # second pass sophomores [6]
+    datetime(2024, 3, 1, 8), # second pass freshmen [7]
+    datetime(2024, 3, 3),    # enrollment ends [8]
+    datetime(2024, 4, 1),      # classes start [9]
+    datetime(2024, 4, 12)      # deadline to enroll/add [10]
 ]
 
 # String representations of each corresponding enrollment itme
