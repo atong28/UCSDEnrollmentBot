@@ -39,7 +39,7 @@ class OverviewInputModal(discord.ui.Modal):
         print(unreadable)
         print(classes)
         if len(classes)==0:
-            em = discord.Embed(title='No results found!', description='Please check your spelling(s) and make sure the classes are properly comma-separated. If this class was not offered last year winter quarter, it will not show up here.')
+            em = discord.Embed(title='No results found!', description='Please check your spelling(s) and make sure the classes are properly comma-separated. If this class was not offered last year spring quarter, it will not show up here.')
             em.add_field(name='Usage', value='`/query`')
             em.add_field(name='Your Query', value=f'`{courses}`')
             await interaction.response.send_message(embed=em)

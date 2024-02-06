@@ -240,7 +240,7 @@ def plot_enrollment(data: list, course: str, fp_time: int, sp_time: int) -> io.B
 
     fig, ax = plt.subplots()
 
-    ax.set_title(f'Enrollment Period for {course} for Winter 2023')
+    ax.set_title(f'Enrollment Period for {course} for Spring 2023')
     ax.set_ylabel('Total Seats')
 
     ax.plot([e['seconds'] for e in data], [e['enrolled'] for e in data], color='red')
